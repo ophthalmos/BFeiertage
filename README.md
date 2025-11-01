@@ -2,4 +2,4 @@
 
 ![Screenshot](BFeiertage.png)
 
-Release-Download: [www.netradio.info/misc](https://www.netradio.info/misc#bfeiertage)
+Release/Download: [www.netradio.info/misc](https://www.netradio.info/misc#bfeiertage)
