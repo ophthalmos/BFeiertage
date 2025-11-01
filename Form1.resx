@@ -1,0 +1,908 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="columnHeader2.GenerateMember" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="columnHeader2.Text" xml:space="preserve">
+    <value>Bezeichnung</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="columnHeader2.Width" type="System.Int32, mscorlib">
+    <value>129</value>
+  </data>
+  <data name="columnHeader1.Text" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="columnHeader1.Width" type="System.Int32, mscorlib">
+    <value>79</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="cbAventSo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="cbAventSo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>73, 250</value>
+  </data>
+  <data name="cbAventSo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 19</value>
+  </data>
+  <data name="cbAventSo.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="cbAventSo.Text" xml:space="preserve">
+    <value>Adventsonntage</value>
+  </data>
+  <metadata name="toolTipWithDelay.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>145, 17</value>
+  </metadata>
+  <data name="cbAventSo.ToolTip" xml:space="preserve">
+    <value>zwischen 27. Nov. und 24. Dez.</value>
+  </data>
+  <data name="&gt;&gt;cbAventSo.Name" xml:space="preserve">
+    <value>cbAventSo</value>
+  </data>
+  <data name="&gt;&gt;cbAventSo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbAventSo.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;cbAventSo.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cbWeiberfast.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cbWeiberfast.Location" type="System.Drawing.Point, System.Drawing">
+    <value>73, 25</value>
+  </data>
+  <data name="cbWeiberfast.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 19</value>
+  </data>
+  <data name="cbWeiberfast.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="cbWeiberfast.Text" xml:space="preserve">
+    <value>Weiberfastnacht</value>
+  </data>
+  <data name="cbWeiberfast.ToolTip" xml:space="preserve">
+    <value>52 Tage vor Ostern</value>
+  </data>
+  <data name="&gt;&gt;cbWeiberfast.Name" xml:space="preserve">
+    <value>cbWeiberfast</value>
+  </data>
+  <data name="&gt;&gt;cbWeiberfast.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbWeiberfast.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;cbWeiberfast.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cbBussBe.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cbBussBe.Location" type="System.Drawing.Point, System.Drawing">
+    <value>73, 225</value>
+  </data>
+  <data name="cbBussBe.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 19</value>
+  </data>
+  <data name="cbBussBe.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="cbBussBe.Text" xml:space="preserve">
+    <value>Buß- und Bettag</value>
+  </data>
+  <data name="cbBussBe.ToolTip" xml:space="preserve">
+    <value>zwischen 16. und 22. Nov.</value>
+  </data>
+  <data name="&gt;&gt;cbBussBe.Name" xml:space="preserve">
+    <value>cbBussBe</value>
+  </data>
+  <data name="&gt;&gt;cbBussBe.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbBussBe.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;cbBussBe.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cbFroni.Location" type="System.Drawing.Point, System.Drawing">
+    <value>73, 200</value>
+  </data>
+  <data name="cbFroni.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 19</value>
+  </data>
+  <data name="cbFroni.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="cbFroni.Text" xml:space="preserve">
+    <value>Fronleichnam</value>
+  </data>
+  <data name="cbFroni.ToolTip" xml:space="preserve">
+    <value>60 Tage nach Ostern</value>
+  </data>
+  <data name="&gt;&gt;cbFroni.Name" xml:space="preserve">
+    <value>cbFroni</value>
+  </data>
+  <data name="&gt;&gt;cbFroni.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbFroni.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;cbFroni.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="cbPfingSo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>73, 175</value>
+  </data>
+  <data name="cbPfingSo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 19</value>
+  </data>
+  <data name="cbPfingSo.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="cbPfingSo.Text" xml:space="preserve">
+    <value>Pfingsten*</value>
+  </data>
+  <data name="cbPfingSo.ToolTip" xml:space="preserve">
+    <value>49 Tage nach Ostern</value>
+  </data>
+  <data name="&gt;&gt;cbPfingSo.Name" xml:space="preserve">
+    <value>cbPfingSo</value>
+  </data>
+  <data name="&gt;&gt;cbPfingSo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbPfingSo.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;cbPfingSo.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="cbChrHim.Location" type="System.Drawing.Point, System.Drawing">
+    <value>73, 150</value>
+  </data>
+  <data name="cbChrHim.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 19</value>
+  </data>
+  <data name="cbChrHim.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="cbChrHim.Text" xml:space="preserve">
+    <value>Christi Himmelfahrt</value>
+  </data>
+  <data name="cbChrHim.ToolTip" xml:space="preserve">
+    <value>39 Tage nach Ostern</value>
+  </data>
+  <data name="&gt;&gt;cbChrHim.Name" xml:space="preserve">
+    <value>cbChrHim</value>
+  </data>
+  <data name="&gt;&gt;cbChrHim.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbChrHim.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;cbChrHim.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="cbRosenMo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cbRosenMo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>73, 50</value>
+  </data>
+  <data name="cbRosenMo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 19</value>
+  </data>
+  <data name="cbRosenMo.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="cbRosenMo.Text" xml:space="preserve">
+    <value>Rosenmontag</value>
+  </data>
+  <data name="cbRosenMo.ToolTip" xml:space="preserve">
+    <value>48 Tage vor Ostern</value>
+  </data>
+  <data name="&gt;&gt;cbRosenMo.Name" xml:space="preserve">
+    <value>cbRosenMo</value>
+  </data>
+  <data name="&gt;&gt;cbRosenMo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbRosenMo.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;cbRosenMo.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="cbKarfr.Location" type="System.Drawing.Point, System.Drawing">
+    <value>73, 100</value>
+  </data>
+  <data name="cbKarfr.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 19</value>
+  </data>
+  <data name="cbKarfr.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="cbKarfr.Text" xml:space="preserve">
+    <value>Karfreitag</value>
+  </data>
+  <data name="cbKarfr.ToolTip" xml:space="preserve">
+    <value>2 Tage vor Ostern</value>
+  </data>
+  <data name="&gt;&gt;cbKarfr.Name" xml:space="preserve">
+    <value>cbKarfr</value>
+  </data>
+  <data name="&gt;&gt;cbKarfr.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbKarfr.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;cbKarfr.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="cbAscherMi.Location" type="System.Drawing.Point, System.Drawing">
+    <value>73, 75</value>
+  </data>
+  <data name="cbAscherMi.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 19</value>
+  </data>
+  <data name="cbAscherMi.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="cbAscherMi.Text" xml:space="preserve">
+    <value>Aschermittwoch</value>
+  </data>
+  <data name="cbAscherMi.ToolTip" xml:space="preserve">
+    <value>46 Tage vor Ostern</value>
+  </data>
+  <data name="&gt;&gt;cbAscherMi.Name" xml:space="preserve">
+    <value>cbAscherMi</value>
+  </data>
+  <data name="&gt;&gt;cbAscherMi.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbAscherMi.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;cbAscherMi.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="cbOsterSo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="cbOsterSo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>73, 125</value>
+  </data>
+  <data name="cbOsterSo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 19</value>
+  </data>
+  <data name="cbOsterSo.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="cbOsterSo.Text" xml:space="preserve">
+    <value>Ostern*</value>
+  </data>
+  <data name="cbOsterSo.ToolTip" xml:space="preserve">
+    <value>erster Sonntag nach dem Frühlingsvollmond</value>
+  </data>
+  <data name="&gt;&gt;cbOsterSo.Name" xml:space="preserve">
+    <value>cbOsterSo</value>
+  </data>
+  <data name="&gt;&gt;cbOsterSo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbOsterSo.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;cbOsterSo.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lblAnm.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblAnm.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="lblAnm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 278</value>
+  </data>
+  <data name="lblAnm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>269, 13</value>
+  </data>
+  <data name="lblAnm.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="lblAnm.Text" xml:space="preserve">
+    <value>* Das Ereignis wird als zweitägiger Termin gespeichert.</value>
+  </data>
+  <data name="&gt;&gt;lblAnm.Name" xml:space="preserve">
+    <value>lblAnm</value>
+  </data>
+  <data name="&gt;&gt;lblAnm.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAnm.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;lblAnm.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="groupBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 85</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>275, 297</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Welche Feiertage sollen berechnet werden?</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="dtpStart.CalendarFont" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="dtpStart.CustomFormat" xml:space="preserve">
+    <value>yyyy</value>
+  </data>
+  <data name="dtpStart.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt</value>
+  </data>
+  <data name="dtpStart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>215, 9</value>
+  </data>
+  <data name="dtpStart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 27</value>
+  </data>
+  <data name="dtpStart.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="dtpStart.ToolTip" xml:space="preserve">
+    <value>1800-2999</value>
+  </data>
+  <data name="&gt;&gt;dtpStart.Name" xml:space="preserve">
+    <value>dtpStart</value>
+  </data>
+  <data name="&gt;&gt;dtpStart.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dtpStart.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dtpStart.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="dtpEnde.CalendarFont" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="dtpEnde.CustomFormat" xml:space="preserve">
+    <value>yyyy</value>
+  </data>
+  <data name="dtpEnde.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt</value>
+  </data>
+  <data name="dtpEnde.Location" type="System.Drawing.Point, System.Drawing">
+    <value>215, 44</value>
+  </data>
+  <data name="dtpEnde.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 27</value>
+  </data>
+  <data name="dtpEnde.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="dtpEnde.ToolTip" xml:space="preserve">
+    <value>1800-2999</value>
+  </data>
+  <data name="&gt;&gt;dtpEnde.Name" xml:space="preserve">
+    <value>dtpEnde</value>
+  </data>
+  <data name="&gt;&gt;dtpEnde.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dtpEnde.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dtpEnde.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lblStart.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblStart.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="lblStart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 15</value>
+  </data>
+  <data name="lblStart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 15</value>
+  </data>
+  <data name="lblStart.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="lblStart.Text" xml:space="preserve">
+    <value>Mit welchem Jahr soll's losgehen?</value>
+  </data>
+  <data name="lblStart.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;lblStart.Name" xml:space="preserve">
+    <value>lblStart</value>
+  </data>
+  <data name="&gt;&gt;lblStart.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblStart.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblStart.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lblEnde.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblEnde.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="lblEnde.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 50</value>
+  </data>
+  <data name="lblEnde.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 15</value>
+  </data>
+  <data name="lblEnde.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="lblEnde.Text" xml:space="preserve">
+    <value>... und mit welchem Jahr enden?</value>
+  </data>
+  <data name="lblEnde.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;lblEnde.Name" xml:space="preserve">
+    <value>lblEnde</value>
+  </data>
+  <data name="&gt;&gt;lblEnde.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblEnde.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblEnde.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="btnListe.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="btnListe.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 390</value>
+  </data>
+  <data name="btnListe.Size" type="System.Drawing.Size, System.Drawing">
+    <value>275, 50</value>
+  </data>
+  <data name="btnListe.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnListe.Text" xml:space="preserve">
+    <value>Feiertage berechnen und auflisten</value>
+  </data>
+  <data name="&gt;&gt;btnListe.Name" xml:space="preserve">
+    <value>btnListe</value>
+  </data>
+  <data name="&gt;&gt;btnListe.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnListe.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnListe.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="listView1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="listView1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>300, 7</value>
+  </data>
+  <data name="listView1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 375</value>
+  </data>
+  <data name="listView1.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;listView1.Name" xml:space="preserve">
+    <value>listView1</value>
+  </data>
+  <data name="&gt;&gt;listView1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;listView1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;listView1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <metadata name="saveFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="btnSpeichern.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnSpeichern.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnSpeichern.Location" type="System.Drawing.Point, System.Drawing">
+    <value>300, 390</value>
+  </data>
+  <data name="btnSpeichern.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 50</value>
+  </data>
+  <data name="btnSpeichern.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="btnSpeichern.Text" xml:space="preserve">
+    <value>iCalendar-Datei speichern...</value>
+  </data>
+  <data name="&gt;&gt;btnSpeichern.Name" xml:space="preserve">
+    <value>btnSpeichern</value>
+  </data>
+  <data name="&gt;&gt;btnSpeichern.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSpeichern.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnSpeichern.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblCopyright.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCopyright.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="lblCopyright.Location" type="System.Drawing.Point, System.Drawing">
+    <value>300, 448</value>
+  </data>
+  <data name="lblCopyright.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 13</value>
+  </data>
+  <data name="lblCopyright.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="lblCopyright.Text" xml:space="preserve">
+    <value>© 2013-2021 W. Happe;</value>
+  </data>
+  <data name="&gt;&gt;lblCopyright.Name" xml:space="preserve">
+    <value>lblCopyright</value>
+  </data>
+  <data name="&gt;&gt;lblCopyright.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCopyright.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblCopyright.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="linklblWeb.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="linklblWeb.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="linklblWeb.Location" type="System.Drawing.Point, System.Drawing">
+    <value>431, 448</value>
+  </data>
+  <data name="linklblWeb.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 13</value>
+  </data>
+  <data name="linklblWeb.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="linklblWeb.Text" xml:space="preserve">
+    <value>www.schielen.de</value>
+  </data>
+  <data name="&gt;&gt;linklblWeb.Name" xml:space="preserve">
+    <value>linklblWeb</value>
+  </data>
+  <data name="&gt;&gt;linklblWeb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;linklblWeb.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;linklblWeb.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblGewaehr.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblGewaehr.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="lblGewaehr.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 448</value>
+  </data>
+  <data name="lblGewaehr.Size" type="System.Drawing.Size, System.Drawing">
+    <value>278, 13</value>
+  </data>
+  <data name="lblGewaehr.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="lblGewaehr.Text" xml:space="preserve">
+    <value>Alle Angaben und Berechnungen natürlich ohne Gewähr!</value>
+  </data>
+  <data name="&gt;&gt;lblGewaehr.Name" xml:space="preserve">
+    <value>lblGewaehr</value>
+  </data>
+  <data name="&gt;&gt;lblGewaehr.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblGewaehr.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblGewaehr.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>37</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>532, 466</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAMAMDAQAAEABABoBgAANgAAACAgEAABAAQA6AIAAJ4GAAAQEBAAAQAEACgBAACGCQAAKAAAADAA
+        AABgAAAAAQAEAAAAAAAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAACAgACAAAAAgACAAICA
+        AADAwMAAgICAAAAA/wAA/wAAAP//AP8AAAD/AP8A//8AAP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmZmZmZmZoiIiI
+        iIiIiIiIhERERERERABmhmxsbGR3d3d3d3d3d3d3d8fGxsbGxABnaGbGxk9/f39/f39/f39/f3x8fGxs
+        ZABmdoZsZPf39/f39/f39/f39/fHx8bGxABuZ2hmT39/f39/f39/f39/f398fHxsZABn5naE9/f39/f3
+        9/f39/f39/f3x8fGxABufmdPf3d3d3d3d3d3d3d/f39/fHxsZABn5+b39/iIiIiIiIiIiIh39/f398fH
+        xABufm9/f3AAAAAAAAAAAAh/f39/f3x8ZABn5vf39/h3d3d3d3d3dwh39/f39/fHxABub39/f3j/////
+        ////9wh/f39/f398dABm///39/j/////////9wh39/f39/f3xABv//f/f3j/////////9wh/f39/f39/
+        dACP////9/j/////////9wh39/f39/f3eACP//9/f3j/////////9wh/f39/f39/eACP//////j/////
+        ////9wh39/f39/f3eACP////9/j/////////9wh/f39/f39/eACP//////j/////////9wh39/f39/f3
+        eACP//////j/////////9wh/f39/f39/eACP//////j/////////9wh39/f39/f3eACP//////j/////
+        ////9wh/f39/f39/eACP//////j////w////9wh39/f39/f3eACP//////j////wh///9wh/f39/f39/
+        eACP//////j////3eIf/9wh39/f39/f3eACP//////j////3/3CH9wh/f39/f39/eACP//////j/////
+        f3MIdwh39/f39/f3eACP//////j/////d7cwhwh/f39/f39/eABv//////j/////8/tzCAh39/f39/f3
+        eABk//////j//////z+3MAh/f39/f39/dABoT/////j///////P7cwh39/f39/f3RABmhP////iIiIiI
+        iIg/tzCHf39/f390ZABmaE/////////////z+3MId/f39/dGxABnZoT/////////////P7cwh39/f3Rs
+        ZABmdmhP////////////8/tzCHf390bGxABuZ2aE/////////////z+3MId/dHxsZABm5nZoT///////
+        //////P7cwh3R8fGxABubmdmhP////////////8/tzCE7Ox8ZABn5uZ2aE/////////////z+3MGzs7H
+        xABufm5nZoT/////////////P7cwbOzsZABmZmZmZmZoiIiIiIiIiIiIg/tzCIiIiAAiIiIiIiIiIiIi
+        IiIiIiIiIj8wEAAAACAAAAAAAAAAAAAAAAAAAAAAACMBESAAAAAAAAAAAAAAAAAAAAAAAAAAAAIZkSAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAhEgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///////8AAP//
+        /////wAAAAAAAAADAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAAB
+        AAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAA
+        AAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAAB
+        AAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAA
+        AAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAAB
+        AAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAA/QAA/////8B/AAD/////4H8AAP//
+        ///w/wAA//////n/AAAoAAAAIAAAAEAAAAABAAQAAAAAAIACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        gAAAAAAAAICAAIAAAACAAIAAgIAAAMDAwACAgIAAAAD/AAD/AAAA//8A/wAAAP8A/wD//wAA////AAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAZmZmZmiIiIiIiIhEREREQGaMbGx/f39/f39/fHaM
+        bEBnaMbH9/f39/f39/fHaMZAaHZ8f39/f39/f39/fHaMQG6Hx/d3d3d3d3f39/fHaEBn5n9wAAAAAAAH
+        f39/fHZAbmf3+Hd3d3d3B/f39/fHQGZ/f3j/////9wd/f39/fEBv//f4//////cH9/f39/dAj/9/eP//
+        ///3B39/f39/gI////j/////9wf39/f394CP//94//////cHf39/f3+Aj///+P/////3B/f39/f3gI//
+        //j/////9wd/f39/f4CP///4///w//cH9/f39/eAj///+P//8DD3B39/f39/gI////j///NzBwf39/f3
+        94CP///4///z+zAHf39/f3+Ah///+P///z+zCHf39/f3gGx///j////z+zCHf39/d0Bux//4iIiIiD+z
+        CHf393RAZux////////z+zCHf3dGQG5ux////////z+zCHd0bEBn5ux////////z+zCHTsZAbo5ux///
+        /////z+zBOzsQG/o5ux////////z+zDOzkBmZmZmaIiIiIiIiD+wCIiAIiIiIiIiIiIiIiIjCREAIgAA
+        AAAAAAAAAAAAAhmRAAAAAAAAAAAAAAAAAAAhEgAA/////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA///+D////w8oAAAAEAAAACAAAAABAAQAAAAAAMAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAICAAIAAAACAAIAAgIAAAMDAwACAgIAAAAD/AAD/
+        AAAA//8A/wAAAP8A/wD//wAA////AAAAAAAAAAAAZmyIiIiMbMBux3d3d3fHwGx3AAAAd3xgZ/eHd3B3
+        d8CPf4//cHd3gI/3j/9wd3eAj3+PD3B3d4CP948zAHd3gGf/jzswh3dAbH+Ig7MIdMBmx/9/OzBHwG5s
+        f//zswzAZmZoiIg7MIAiIiIgAAORIgAAAAAAABEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//MAAA==
+</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Bewegliche Feiertage</value>
+  </data>
+  <data name="&gt;&gt;columnHeader2.Name" xml:space="preserve">
+    <value>columnHeader2</value>
+  </data>
+  <data name="&gt;&gt;columnHeader2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader1.Name" xml:space="preserve">
+    <value>columnHeader1</value>
+  </data>
+  <data name="&gt;&gt;columnHeader1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;saveFileDialog1.Name" xml:space="preserve">
+    <value>saveFileDialog1</value>
+  </data>
+  <data name="&gt;&gt;saveFileDialog1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SaveFileDialog, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolTipWithDelay.Name" xml:space="preserve">
+    <value>toolTipWithDelay</value>
+  </data>
+  <data name="&gt;&gt;toolTipWithDelay.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

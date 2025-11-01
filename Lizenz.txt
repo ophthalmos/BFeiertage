@@ -1,0 +1,30 @@
+Copyright (c) 2012, Wilhelm Happe
+All rights reserved.
+
+Gewährleistungsbeschränkung
+===========================
+Die Veröffentlichung dieses Programms erfolgt in der Hoffnung, dass es
+Ihnen von Nutzen sein wird, aber ohne irgendeine Garantie, sogar ohne
+die implizite Garantie der Marktreife oder der Verwendbarkeit für einen
+bestimmten Zweck.
+
+
+Nutzungsrecht/Vertrieb
+======================
+Jedem wird das Recht eingeräumt diese Software zu verwenden und zu ver-
+treiben, einschließlich der kommerziellen Nutzung, vorausgesetzt, dass der
+Gewährleistungsbeschränkung und folgenden Bedingungen, zugestimmt werden:
+1. Bei jeder Weitergabe muss das ursprüngliche Paket intakt bleiben. Keine
+   Datei darf entfernt oder verändert werden. Insbesondere müssen alle
+   Copyright-Hinweise und diese Lizenz ohne Veränderung erhalten bleiben.
+2. Die Herkunft dieser Software darf nicht falsch dargestellt werden;
+   Sie dürfen nicht behaupten Autor dieser Software zu sein.
+3. Sie verpflichten sich, keine Änderungen, Anpassungen, Übertragungen,
+   Rückübersetzungen, Dekompilierungen, Disassemblierungen oder sonstige
+   Versuche anzustellen, dem Quellcode der Software auf die Spur zu kommen.
+
+
+Software-Autor:
+Dr. Wilhelm Happe
+Kanalstraße 20
+24159 Kiel
